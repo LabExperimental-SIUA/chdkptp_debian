@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Create symlink to /usr/bin
+ln -s /usr/share/chdkptp/chdkptp.sh /usr/bin/chdkptp
+

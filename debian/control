@@ -6,7 +6,17 @@ Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9)
 
 Package: chdkptp
-Architecture: any
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: conectar a camara
- prueba para empaquetar
+Conflicts: gvfs-backends
+Description:  CHDK extension to the Picture Transfer Protocol (PTP),
+ chdkptp is a comand line client created specifically for controlling CHDK cameras. 
+ .
+ it provides a Lua API for the CHDK protocol on the PC. Because the GUI and CLI
+ are also implemented in Lua, this makes chdkptp easy to extend and enables end
+ users to implement complex interactions with code on the camera.
+ .
+ chdkptp is currently considered alpha because functionality and APIs are
+ subject to change. However, the snapshot builds are generally stable and
+ suitable for everyday use.
+

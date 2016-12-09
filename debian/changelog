@@ -1,5 +1,5 @@
-chdkptp (1.0-1) UNRELEASED; urgency=medium
+chdkptp (1.0.0-0) stable; urgency=low
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release 
 
- -- root <root@(none)>  Wed, 17 Sep 2014 13:33:58 -0600
+ -- Equipo LibreScan <librescan@gmail.com>  Fri, 09 Jul 2016 07:56:34 -0600 
